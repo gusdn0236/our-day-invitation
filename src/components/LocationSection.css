@@ -1,0 +1,64 @@
+.Location-container {
+  text-align: center;
+  padding: 2rem 1rem;
+  background-color: rgb(250, 250, 250);
+  color: rgb(15, 15, 15);
+}
+
+.Location-label {
+  font-family: 'Eulyoo1945-SemiBold';
+  color: rgb(249, 210, 210); /* 포인트컬러 */
+  font-size: 1rem;
+  letter-spacing: 3px;
+  margin-bottom: 0.5rem;
+  font-weight: 600;
+}
+
+.Location-title {
+  font-family: 'Eulyoo1945-SemiBold';
+  color: rgb(248, 182, 182); /* 포인트컬러 */
+  letter-spacing: 1px;
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-bottom: 3rem;
+}
+
+.Location-maintext {
+  font-family: 'Eulyoo1945-SemiBold';
+  color: rgb(15, 15, 15);
+  letter-spacing: 1px;
+  font-size: 1.4rem;
+  font-weight: bold;
+  margin-bottom: 2rem;
+}
+.Location-subtext {
+  font-family: 'Eulyoo1945-Regular';
+  font-size: 1rem;
+  color: #717171;
+  margin-top: 1.5rem;
+}
+
+.Location-tel {
+  font-family: 'Eulyoo1945-Regular';
+  font-size: 1rem;
+  color: #717171;
+}
+
+.Location-parking {
+  font-family: 'Gowun Dodum', sans-serif;
+  font-size: 0.9rem;
+  color: #9f9e9e;
+  margin-top: 1.5rem;
+}
+
+.NaviContainer {
+  display: flex; /* 가로로 배치 */
+  justify-content: space-between; /* 버튼들 사이에 균등한 간격 */
+  gap: 12px; /* 각 버튼 사이에 간격 */
+  margin-top: 20px; /* 상단 여백 */
+}
+
+.NaviContainer > * {
+  flex: 1; /* 각 버튼이 동일한 비율로 1/3씩 차지 */
+  max-width: 130px; /* 최대 너비를 130px로 제한 */
+}

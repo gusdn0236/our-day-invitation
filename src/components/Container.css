@@ -1,0 +1,6 @@
+.container {
+  max-width: 500px; /* 모바일 기준 최대 너비 */
+  margin: 0 auto; /* 가운데 정렬 */
+  padding: 0 1rem; /* 상하 / 좌우 여백 */
+  box-sizing: border-box; /* 패딩 포함 */
+}

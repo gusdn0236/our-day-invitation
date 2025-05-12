@@ -1,0 +1,6 @@
+.section-divider {
+  width: 15%; /* 전체 너비 중 15%만 차지 */
+  height: 1px;
+  background-color: #e0e0e0;
+  margin: 2rem auto; /* 가운데 정렬 + 위아래 여백 */
+}
