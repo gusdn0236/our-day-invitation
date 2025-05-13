@@ -5,15 +5,15 @@ import './GallerySection.css';
 import SectionDivider from './SectionDivider';
 
 const imageList = [
-  '/assets/wedding1.jpg',
-  '/assets/wedding2.jpg',
-  '/assets/wedding3.jpg',
-  '/assets/wedding4.jpg',
-  '/assets/wedding5.jpg',
-  '/assets/wedding6.jpg',
-  '/assets/wedding7.jpg',
-  '/assets/wedding8.jpg',
-  '/assets/wedding9.jpg',
+  './assets/wedding1.jpg',
+  './assets/wedding2.jpg',
+  './assets/wedding3.jpg',
+  './assets/wedding4.jpg',
+  './assets/wedding5.jpg',
+  './assets/wedding6.jpg',
+  './assets/wedding7.jpg',
+  './assets/wedding8.jpg',
+  './assets/wedding9.jpg',
 ];
 
 const GallerySection = () => {
@@ -22,7 +22,7 @@ const GallerySection = () => {
   const openModal = (index) => setSelectedIndex(index);
   const closeModal = () => setSelectedIndex(null);
 
-  const showPrev = (e) => {
+  const showPrev = (e) => { 
     e.stopPropagation();
     setSelectedIndex((prev) => (prev > 0 ? prev - 1 : imageList.length - 1));
   };

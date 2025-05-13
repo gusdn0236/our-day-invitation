@@ -14,7 +14,7 @@ const HeroSection = () => {
       <p  className="hero-name">신랑 김현우 신부 이인혜</p>
       <div className="hero-image-wrapper">
         <img
-          src="/assets/hero-image.png" // 실제 이미지 파일로 교체
+          src="./assets/hero-image.png" // 실제 이미지 파일로 교체
           alt="Couple"
           className="hero-image"
         />
