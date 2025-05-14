@@ -22,7 +22,7 @@ const TmapNavi = ({ latitude, longitude, name }) => {
       }}
     >
       <img
-        src="public\assets\Tmap-01.png" // 이 이미지 파일은 public/assets에 넣어야 함
+        src="assets/Tmap_Icon.png" // 이 이미지 파일은 public/assets에 넣어야 함
         alt="티맵으로 길찾기"
         style={{
           width: '50px',
@@ -36,5 +36,5 @@ const TmapNavi = ({ latitude, longitude, name }) => {
     </a>
   );
 };
-
+ 
 export default TmapNavi;
