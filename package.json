@@ -1,9 +1,9 @@
 {
-  "homepage": "https://gusdn0236.github.io/our-day-invitation/",
   "name": "our-day-invitation",
   "private": true,
   "version": "0.0.0",
   "type": "module",
+  "homepage": "https://gusdn0236.github.io/our-day-invitation/",
   "scripts": {
     "dev": "vite --host",
     "build": "vite build",
