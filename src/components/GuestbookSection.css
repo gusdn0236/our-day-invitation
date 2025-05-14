@@ -22,7 +22,7 @@
   font-weight: bold;
   margin-bottom: 3rem;
 }
-
+/* 입력 필드 (이름, 메시지) */
 .Guestbook-container input,
 .Guestbook-container textarea {
   width: 100%;
@@ -30,8 +30,18 @@
   margin-bottom: 1rem;
   border-radius: 8px;
   border: 1px solid #ccc;
+  background-color: #f9f9f9;
+  font-size: 1rem;
+  color: #333;
+  box-sizing: border-box;
 }
 
+/* 텍스트 에어리어 고정 크기 */
+.Guestbook-container textarea {
+  resize: none; /* 크기 조정 불가 */
+  height: 150px; /* 고정 높이 */
+}
+/* 버튼 */
 .Guestbook-container button {
   padding: 0.8rem 1.2rem;
   background-color: #f8b0b0; /* 핑크색 버튼 */
@@ -39,9 +49,51 @@
   border: none;
   border-radius: 8px;
   cursor: pointer;
+  font-weight: bold;
+  transition: background-color 0.3s;
 }
 
 .Guestbook-container button:disabled {
   background-color: #ddd;
   cursor: not-allowed;
+}
+
+/* 버튼 호버 효과 */
+.Guestbook-container button:hover:not(:disabled) {
+  background-color: #f76c6c;
+}
+
+/* 방명록 항목 */
+ul {
+  list-style: none;
+  padding: 0;
+  margin-top: 2rem;
+}
+
+.Guestbook-entry {
+  padding: 1rem;
+  border-bottom: 1px solid #ddd;
+  margin-bottom: 1rem;
+}
+
+.Guestbook-entry-header {
+  display: flex;
+  justify-content: space-between;
+  font-weight: 600;
+  color: #444;
+}
+
+.Guestbook-name {
+  font-size: 1rem;
+}
+
+.Guestbook-date {
+  font-size: 0.85rem;
+  color: #888;
+}
+
+.Guestbook-message {
+  margin-top: 0.5rem;
+  font-size: 1rem;
+  color: #333;
 }
